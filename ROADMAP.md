@@ -1,20 +1,21 @@
 # 🗺️ Projekt-Roadmap
 
-Hier halten wir fest, welche Themen wir in den Guide aufnehmen wollen und wie der Status ist.
+Status-Übersicht des "GitHub für Dummies" Guides für lemueIO.
 
-## 🟢 Phase 1: Die Basis (Erledigt)
-- [x] Kapitel 0: Einleitung & Mindset (Warum GitHub?)
-- [x] Kapitel 1: Setup & Security (Git Installation, SSH-Keys für lemueIO)
-- [x] Kapitel 2: Der Workflow (Clone, Add, Commit, Push)
+## 🟢 Phase 1: Die Basis (Abgeschlossen)
+- [x] **Kapitel 0:** Einleitung & Mindset (Warum GitHub?)
+- [x] **Kapitel 1:** Setup & Security (Git Installation, SSH-Keys)
+- [x] **Kapitel 2:** Der Workflow (Clone, Add, Commit, Push)
 
-## 🟡 Phase 2: Teamwork (Erledigt)
-- [x] Kapitel 3: Kollaboration (Branches, Pull Requests)
+## 🟡 Phase 2: Teamwork (Abgeschlossen)
+- [x] **Kapitel 3:** Kollaboration (Branches, Pull Requests, Merge)
 
-## 🟠 Phase 3: Advanced (Theorie Erledigt)
-- [x] Kapitel 4: Automatisierung (GitHub Actions Intro)
-- [ ] Praxis: Eine echte GitHub Action für Website-Deployment bauen
-- [ ] Praxis: GitHub Pages einrichten (Verifizierte Domain nutzen)
+## 🟠 Phase 3: Advanced & Automatisierung (Abgeschlossen)
+- [x] **Kapitel 4:** Einführung in GitHub Actions & CI/CD
+- [ ] **Praxis:** Deployment-Pipeline für Webseite einrichten
+- [ ] **Praxis:** GitHub Pages aktivieren
 
-## 🚀 Zukunftsmusik
-- [ ] Templates für Issues & PRs anlegen
-- [ ] Branch Protection Rules definieren (Niemand darf direkt auf `main` pushen)
+## 🔍 Phase 4: Qualitätssicherung (Aktuell)
+- [x] Navigations-Check (Links geprüft)
+- [x] Content-Polish (Texte erweitert und veredelt)
+- [ ] Review durch Teammitglieder

@@ -2,22 +2,15 @@
 
 Alle signifikanten Änderungen an diesem Projekt werden hier dokumentiert.
 
-## [1.0.0] - 2024-05-22
-
-### Initial Release des Guides
-Wir haben die komplette Grundstruktur und alle Basis-Kapitel erstellt.
-
+## [0.2.0] - 2024-05-22 (Content Update)
 ### Hinzugefügt
-*   **Struktur:** Ordnerstruktur `content/` mit Unterordnern für Kapitel 0-4 angelegt.
-*   **Kapitel 0 (Grundlagen):** Einleitung, Git vs. GitHub.
-*   **Kapitel 1 (Setup):** Installation und SSH-Key Setup (Wichtig für Security).
-*   **Kapitel 2 (Workflow):** Der Standard-Kreislauf (Clone, Commit, Push).
-*   **Kapitel 3 (Kollaboration):** Branches und Pull Requests erklärt.
-*   **Kapitel 4 (Advanced):** Einführung in CI/CD und GitHub Actions.
-*   **Dashboard:** `README.md` als navigierbares Inhaltsverzeichnis verlinkt.
+- **Vollständiger Content:** Alle Platzhalter in den Kapiteln 1 bis 4 wurden durch detaillierte Anleitungen ersetzt.
+- **Deep Dives:** Erklärung zu SSH-Keys (Ed25519), Git-Status Meldungen und Branching-Strategien hinzugefügt.
+- **Navigation:** Links in allen Markdown-Dateien wurden auf Korrektheit geprüft (Relative Pfade).
 
-## [0.1.0] - Projektstart
+### Geändert
+- Ordnerstruktur finalisiert auf `content/KAPITEL-NAME/`.
+- `ROADMAP.md` aktualisiert, um den Abschluss der Schreibphase zu reflektieren.
 
-### Hinzugefügt
-*   Initiale Repository-Erstellung.
-*   `ROADMAP.md` und `changelog.md` angelegt.
+## [0.1.0] - Initial Release
+- Initiale Repository-Struktur und Kapitel 0 erstellt.
