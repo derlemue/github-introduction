@@ -1,6 +1,6 @@
-# 0- Einleitung: Willkommen an Bord 🚢
+# 0-- Einleitung: Willkommen an Bord 🚢
 
-[🏠 Home](./README.md) | [▶️ Los geht's: Warum GitHub?](./0-0-warum-und-was.md)
+[🏠 Home](../../README.md) | [▶️ Los geht's: Warum GitHub?](./0-0-warum-und-was.md)
 
 ---
 

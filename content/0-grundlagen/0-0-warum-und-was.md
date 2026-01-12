@@ -1,6 +1,6 @@
 # 0-0- Warum GitHub und was tun wir hier eigentlich? 🤔
 
-[🏠 Home](./README.md) | [◀️ Zurück](./0-einleitung.md) | [▶️ Nächstes: Hintergrund](./0-1-hintergrund.md)
+[🏠 Home](../../README.md) | [◀️ Zurück](./0--einleitung.md) | [▶️ Nächstes: Hintergrund](./0-1-hintergrund.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # 0-1- Hintergrund: Git vs. GitHub 🤓
 
-[🏠 Home](./README.md) | [◀️ Zurück](./0-0-warum-und-was.md) | [🔜 Nächstes Kapitel (Coming Soon)](./ROADMAP.md)
+[🏠 Home](../../README.md) | [◀️ Zurück](./0-0-warum-und-was.md) | [🔜 Nächstes Kapitel (Roadmap)](../../ROADMAP.md)
 
 ---
 
