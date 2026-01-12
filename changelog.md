@@ -1,16 +1,23 @@
-# Changelog
+# 📜 Changelog
 
-## Version 0.1.0
+Alle signifikanten Änderungen an diesem Projekt werden hier dokumentiert.
 
-### 🚀 0-Features
-#### 0-0-initial-setup
-- Erstellung der initialen Repository-Struktur
-- Hinzufügen von `0-0-was-ist-github.md`
-- Hinzufügen der `ROADMAP.md`
-- Erstellung des `changelog.md`
+## [1.0.0] - 2024-05-22
 
-### 🐛 0-Bugfixes
-- Keine
+### Initial Release des Guides
+Wir haben die komplette Grundstruktur und alle Basis-Kapitel erstellt.
 
-### 📝 0-Documentation
-- Grundlegende Dokumentation erstellt
+### Hinzugefügt
+*   **Struktur:** Ordnerstruktur `content/` mit Unterordnern für Kapitel 0-4 angelegt.
+*   **Kapitel 0 (Grundlagen):** Einleitung, Git vs. GitHub.
+*   **Kapitel 1 (Setup):** Installation und SSH-Key Setup (Wichtig für Security).
+*   **Kapitel 2 (Workflow):** Der Standard-Kreislauf (Clone, Commit, Push).
+*   **Kapitel 3 (Kollaboration):** Branches und Pull Requests erklärt.
+*   **Kapitel 4 (Advanced):** Einführung in CI/CD und GitHub Actions.
+*   **Dashboard:** `README.md` als navigierbares Inhaltsverzeichnis verlinkt.
+
+## [0.1.0] - Projektstart
+
+### Hinzugefügt
+*   Initiale Repository-Erstellung.
+*   `ROADMAP.md` und `changelog.md` angelegt.
