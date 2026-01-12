@@ -4,24 +4,55 @@
 
 ---
 
-Du hast deinen Code in deinem Branch fertig und hochgeladen. Wie kommt er jetzt in den offiziellen `main`-Code von **lemueIO**?
+Ein **Pull Request** ist mehr als nur "Code mergen". Es ist ein Qualitäts-Gate. Hier schauen 4 Augen mehr als 2.
 
-Wir "mergen" (verschmelzen) nicht lokal. Wir stellen einen **Antrag**.
+## Der "Knigge" für perfekte PRs 🎩
 
-## Der Workflow auf GitHub
+Wenn du bei lemueIO einen PR erstellst, achte auf folgendes:
 
-1.  **Browser öffnen:** Gehe auf die GitHub-Seite deines Repositories.
-2.  **Hinweis sehen:** Meistens siehst du oben gelb: "feature/neue-seite had recent pushes".
-3.  **Button drücken:** Klicke auf den grünen Button "Compare & pull request".
+1.  **Aussagekräftiger Titel:** Nicht "Update", sondern "feat: Add dark mode toggle".
+2.  **Beschreibung:** Fülle das Template aus!
+    *   *Was* wurde gemacht?
+    *   *Warum*? (Link zum Ticket/Issue)
+    *   *Wie* kann man es testen?
+3.  **Selbst-Review:** Schau dir deine eigenen Änderungen ("Files changed") an, BEVOR du Kollegen taggst. Oft findest du selbst noch Typos oder vergessene `console.log`.
 
-## Das Formular ausfüllen
+## Review & Feedback
+Wenn ein Kollege schreibt: *"Bitte Variable X umbenennen"*, dann ist das kein Angriff.
+*   Antworte höflich.
+*   Diskutiere, wenn du anderer Meinung bist.
+*   Setze die Änderung um und schreibe "Done" oder "Fixed".
 
-Ein **Pull Request (PR)** ist eine Bitte: "Hey Team, ich habe X gemacht. Bitte prüft das und nehmt es auf."
+## Merge Strategien: Wie kommt es zusammen?
 
-*   **Titel:** Kurz und knackig (z.B. "Kapitel 3 hinzugefügt").
-*   **Beschreibung:** Was hast du getan? Warum?
-*   **Reviewers:** Hier kannst du Kollegen eintragen, die deinen Code prüfen sollen.
+Wenn der PR grün ist (Approved), gibt es meistens 3 Optionen beim Merge-Button.
 
-## Mergen
+### 1. Merge Commit (Der Standard)
+Behält alle deine einzelnen Commits (`typo`, `fix`, `wip`).
+*   *Vorteil:* Historie ist exakt.
+*   *Nachteil:* Kann unübersichtlich werden ("Spaghetti-History").
 
-Wenn alles okay ist (grüner Haken), klickst du (oder dein Chef) auf "Merge pull request".
+### 2. Squash and Merge (Unsere Empfehlung ⭐)
+Git nimmt alle deine 20 kleinen Commits und presst sie in **einen einzigen** sauberen Commit zusammen.
+*   *Vorteil:* Der `main`-Branch bleibt extrem sauber und lesbar. "Ein Feature = Ein Commit".
+
+---
+
+## 😱 Hilfe, Merge Conflict!
+
+Manchmal sagt GitHub: *"This branch has conflicts that must be resolved"*.
+Das heißt: Jemand anderes hat genau die gleichen Zeilen geändert wie du. Git weiß nicht, welche Version stimmt.
+
+**Was tun?**
+Du musst das lokal lösen (wirklich!).
+1.  `git checkout main`
+2.  `git pull` (Main aktualisieren)
+3.  `git checkout dein-feature`
+4.  `git merge main`
+5.  Jetzt knallt es. Öffne die Dateien mit `<<<< HEAD`, entscheide was bleibt, speichere.
+6.  `git add .` und `git commit`.
+
+Konflikt gelöst? Dann wieder `git push`.
+
+---
+*Du hast jetzt das Rüstzeug für echte Teamarbeit. Ab hier beginnt der Profi-Bereich: Automatisierung!*

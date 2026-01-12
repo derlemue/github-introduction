@@ -1,52 +1,62 @@
-# 3-0- Branches verstehen & nutzen 🌿
+# 3-0- Branches verstehen 🌿
 
 [🏠 Home](../../README.md) | [◀️ Zurück](./3--kollaboration-intro.md) | [▶️ Nächstes: Pull Requests](./3-1-pull-requests.md)
 
 ---
 
-## Was ist ein Branch?
+## Warum nicht einfach alles auf `main`?
 
-Ein **Branch** ist wie ein Speicherstand in einem Videospiel, den du kopierst, um ein riskantes Level auszuprobieren. Wenn du stirbst (Code kaputt machst), lädst du einfach den alten Speicherstand (`main`) wieder.
+Stell dir `main` als die Live-Version deiner Webseite vor. Wenn du dort einen Fehler machst (z.B. ein Komma löschst), stürzt die Seite für alle Besucher ab. 💥
 
-## Die Befehle
+Deshalb arbeiten wir auf **Branches** (Ästen).
 
-### 1. Einen neuen Branch erstellen
+### Visualisierung
 
-Wir erstellen einen Branch namens `feature/neue-seite` und wechseln sofort hinein.
-
-```bash
-git checkout -b feature/neue-seite
+```text
+main:      O ─── O ─── O ─── O  (Sauber & Stabil)
+                 \
+feature-x:        A ─── B ─── C  (Deine Baustelle)
 ```
 
-(Der Schalter `-b` steht für "create branch".)
+Du zweigst bei Commit `O` ab, baust deine Commits `A`, `B` und `C`. Währenddessen funktioniert `main` weiter perfekt. Erst am Ende führen wir `C` wieder zurück zu `main`.
+
+---
+
+## Die Praxis: Branching in 3 Schritten
+
+### 1. Erstellen & Wechseln (Switch)
+Früher nutzte man `checkout`, heute ist der Befehl `switch` moderner und verständlicher.
+
+```bash
+# Erstellt (-c = create) einen Branch und wechselt sofort hin
+git switch -c feature/neues-design
+```
+
+> **💡 Best Practice:** Nutze sprechende Namen!
+> *   `feature/login-page`
+> *   `fix/header-bug`
+> *   `docs/readme-update`
+> Vermeide Namen wie `test` oder `michaels-branch`.
 
 ### 2. Arbeiten
+Du änderst Dateien, addest und committest wie gewohnt.
+Der Clou: Wenn du jetzt `ls` (Dateien anzeigen) machst, siehst du deine neuen Dateien.
 
-Jetzt kannst du Dateien ändern, löschen oder hinzufügen. Alles passiert nur in diesem Branch! Der `main`-Branch bleibt unberührt.
+Wechsle spaßeshalber zurück zu main:
+```bash
+git switch main
+```
+😱 **Schreck:** Deine Dateien sind weg!
+😅 **Entwarnung:** Sie sind nicht weg, nur im anderen Branch. Git tauscht die Dateien auf deiner Festplatte blitzschnell aus, je nachdem, in welchem Branch du bist.
 
-Führe wie gewohnt deine Speicher-Befehle aus:
+### 3. Hochladen (Push)
+Ein neuer Branch existiert erst mal nur lokal. GitHub kennt ihn nicht.
 
 ```bash
-git add .
-git commit -m "Neue Seite erstellt"
+git push -u origin feature/neues-design
 ```
 
-### 3. Zurückwechseln (optional)
+Das `-u` (upstream) ist wichtig beim ersten Mal: Es sagt Git, dass dieser lokale Branch fest mit dem Branch auf GitHub verbunden sein soll. Danach reicht ein einfaches `git push`.
 
-Willst du sehen, wie es vorher aussah? Wechsel zurück zum Hauptstrang:
-
-```bash
-git checkout main
-```
-
-Deine Änderungen sind jetzt "weg" (aber sicher im anderen Branch gespeichert).
-
-### 4. Branch hochladen
-
-Das erste Mal Hochladen eines neuen Branches braucht einen speziellen Befehl:
-
-```bash
-git push -u origin feature/neue-seite
-```
-
-(Das `-u` verknüpft deinen lokalen Branch mit dem auf GitHub).
+---
+*Dein Branch ist live auf GitHub. Aber wie kommt er jetzt in den sicheren Hafen (main)? Das klären wir im nächsten Schritt.*
