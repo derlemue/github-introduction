@@ -12,7 +12,7 @@ Dieser Guide ist so aufgebaut, dass du keine Vorkenntnisse benötigst. Er führt
     * [0-0- Warum GitHub? Was tun wir hier eigentlich?](./content/0-grundlagen/0-0-warum-und-was.md)
     * [0-1- Hintergrund: Der Unterschied zwischen Git und GitHub](./content/0-grundlagen/0-1-hintergrund.md)
 
-### �️ Kapitel 1: Setup & Security
+### 🛠️ Kapitel 1: Setup & Security
 * [1-- Hauptkapitel: Das Werkzeug schärfen](./content/1-setup-und-security/1--setup-intro.md)
     * [1-0- Git Installation](./content/1-setup-und-security/1-0-git-installation.md)
     * [1-1- SSH Keys einrichten (Wichtig!)](./content/1-setup-und-security/1-1-ssh-keys-einrichten.md)
@@ -27,15 +27,25 @@ Dieser Guide ist so aufgebaut, dass du keine Vorkenntnisse benötigst. Er führt
     * [3-0- Branches verstehen](./content/3-kollaboration/3-0-branches-verstehen.md)
     * [3-1- Pull Requests](./content/3-kollaboration/3-1-pull-requests.md)
 
-### 🚀 Kapitel 4: Advanced
+### 🚀 Kapitel 4: Advanced Theory
 * [4-- Hauptkapitel: Automatisierung & Profi-Tipps](./content/4-advanced/4--advanced-intro.md)
     * [4-0- GitHub Actions](./content/4-advanced/4-0-github-actions.md)
 
+### 🏗️ Kapitel 5: Praxis - Deployment
+* [5-- Deployment Pipeline Intro](./content/5-deployment-pipeline/5--deployment-intro.md)
+    * [5-0- Das Pipeline-Konzept](./content/5-deployment-pipeline/5-0-pipeline-konzept.md)
+    * [5-1- Die Action einrichten](./content/5-deployment-pipeline/5-1-action-einrichten.md)
+
+### 🌐 Kapitel 6: Praxis - GitHub Pages
+* [6-- Pages Intro](./content/6-github-pages/6--pages-intro.md)
+    * [6-0- Pages aktivieren](./content/6-github-pages/6-0-pages-aktivieren.md)
+    * [6-1- Die eigene Domain](./content/6-github-pages/6-1-custom-domain.md)
+
 ---
 
-### �🚧 Roadmap & Logbuch
+### 🚧 Roadmap & Logbuch
 * [🗺️ Roadmap](./ROADMAP.md)
 * [📜 Changelog](./changelog.md)
 
 ---
-> **Status:** In Entwicklung 🛠 | **Maintainer:** lemueIO Team
+> **Status:** Live v0.3.0 🚀 | **Maintainer:** lemueIO Team
