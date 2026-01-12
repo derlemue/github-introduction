@@ -2,15 +2,14 @@
 
 Alle signifikanten Änderungen an diesem Projekt werden hier dokumentiert.
 
-## [0.3.0] - 2024-05-22 (Praxis-Update)
+## [0.4.0] - 2024-05-22 (The Ecosystem Update)
 ### Hinzugefügt
-- **Kapitel 5:** Vollständiger Leitfaden für CI/CD Deployment Pipelines via FTP.
-- **Kapitel 6:** Anleitung für GitHub Pages und die Einrichtung von Custom Domains (`lemue.io`).
-- **Beispiel-Code:** YAML-Template für FTP-Deploy Action hinzugefügt.
+- **Kapitel 7:** Bonus-Kapitel zu GitHub Marketplace, Apps (Dependabot, Stale) und Webhooks (Discord/Slack).
+- **Deep Dive:** Erweiterte Recherche-Inhalte zu Sicherheitsaspekten von GitHub Apps.
+- **Navigation:** README vollständig aktualisiert, alle 7 Kapitel verlinkt.
+
+## [0.3.0] - Praxis Update
+- Kapitel 5 (Deployment) und 6 (Pages) hinzugefügt.
 
 ## [0.2.0] - Content Update
-- Vollständiger Content für Kapitel 1-4.
-- QA und Navigation Check.
-
-## [0.1.0] - Initial Release
-- Initiale Repository-Struktur.
+- Kapitel 1-4 vollständig ausgearbeitet.

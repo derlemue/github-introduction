@@ -29,17 +29,22 @@ Dieser Guide ist so aufgebaut, dass du keine Vorkenntnisse benötigst. Er führt
 
 ### 🚀 Kapitel 4: Advanced Theory
 * [4-- Hauptkapitel: Automatisierung & Profi-Tipps](./content/4-advanced/4--advanced-intro.md)
-    * [4-0- GitHub Actions](./content/4-advanced/4-0-github-actions.md)
+    * [4-0- GitHub Actions Intro](./content/4-advanced/4-0-github-actions.md)
 
 ### 🏗️ Kapitel 5: Praxis - Deployment
-* [5-- Deployment Pipeline Intro](./content/5-deployment-pipeline/5--deployment-intro.md)
-    * [5-0- Das Pipeline-Konzept](./content/5-deployment-pipeline/5-0-pipeline-konzept.md)
-    * [5-1- Die Action einrichten](./content/5-deployment-pipeline/5-1-action-einrichten.md)
+* [5-- Hauptkapitel: Deployment Pipeline](./content/5-deployment-pipeline/5--deployment-intro.md)
+    * [5-0- Das Konzept (CI/CD)](./content/5-deployment-pipeline/5-0-pipeline-konzept.md)
+    * [5-1- Die FTP Action einrichten](./content/5-deployment-pipeline/5-1-action-einrichten.md)
 
 ### 🌐 Kapitel 6: Praxis - GitHub Pages
-* [6-- Pages Intro](./content/6-github-pages/6--pages-intro.md)
+* [6-- Hauptkapitel: Pages & Custom Domain](./content/6-github-pages/6--pages-intro.md)
     * [6-0- Pages aktivieren](./content/6-github-pages/6-0-pages-aktivieren.md)
-    * [6-1- Die eigene Domain](./content/6-github-pages/6-1-custom-domain.md)
+    * [6-1- Eigene Domain (lemue.io)](./content/6-github-pages/6-1-custom-domain.md)
+
+### 🔌 Kapitel 7: Bonus - Externe Dienste
+* [7-- Hauptkapitel: Ökosystem & Apps](./content/7-bonus-externe-dienste/7--bonus-intro.md)
+    * [7-0- Der Marketplace (Apps & Bots)](./content/7-bonus-externe-dienste/7-0-marketplace.md)
+    * [7-1- Webhooks (Discord/Slack Integration)](./content/7-bonus-externe-dienste/7-1-webhooks-discord.md)
 
 ---
 
@@ -48,4 +53,4 @@ Dieser Guide ist so aufgebaut, dass du keine Vorkenntnisse benötigst. Er führt
 * [📜 Changelog](./changelog.md)
 
 ---
-> **Status:** Live v0.3.0 🚀 | **Maintainer:** lemueIO Team
+> **Status:** Live v0.4.0 ✨ | **Maintainer:** lemueIO Team
